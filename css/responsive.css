@@ -1,0 +1,116 @@
+@media screen and (max-width: 998px){
+	.navigation .logo{
+		width: 40%;
+	    float: left;
+	    padding: 15px 10px;
+    }
+    .navigation .icon{
+		width: 5%;
+		margin-bottom: 0px;
+	}
+	.navigation .search-box{
+		width: 35%;
+		display: inline-flex;
+		float: right;
+		margin-top: -90px;
+	}
+	.navigation .menu-bar{
+		width: 30%;
+		float: right;
+		margin-top: -50px;
+	}
+	.navigation .menu-bar ul li{
+		padding: 5px 15px;
+
+	}
+	.side-menu{
+		width: 34%;
+		z-index: 20;
+		top: 113;
+		position: fixed;
+		font-size: 12px;
+		display: none;
+	}
+	.side-menu ul li ul{
+		top: 133px;
+	}
+	.side-menu ul li ul:hover{
+		margin-left: 31%;
+	}
+	#menu-btn{
+		display: block;
+	}
+	.slider{
+		width:90%;
+		margin: 10px auto;
+	}
+}
+
+@media screen and (max-width: 768px){
+    .navigation .logo{
+		width: 50%;
+		float: left;
+		padding: 15px 10px;
+    }
+    .navigation .icon{
+		width: 5%;
+		margin-bottom: 0px;
+	}
+    .navigation .search-box{
+		width: 35%;
+		display: inline-flex;
+		float: right;
+		margin-top: -90px;
+	}
+	.navigation .menu-bar{
+		width: 36%;
+		float: right;
+		margin-top: -50px;
+	}
+	.navigation .menu-bar ul li{
+		padding: 5px 15px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.top img{
+	    width: 100%;
+	    height: auto;
+	    margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 480px){
+	.navigation .logo{
+		width: 100%;
+		float: right;
+		padding: 15px 10px;
+    }
+    .navigation .icon{
+		width: 100%;
+		float: left;
+	}
+    .navigation .search-box{
+		width: 100%;
+		display: inline-flex;
+		float: none;
+		margin: 0 auto;
+		padding: 0 5px;
+
+	}
+	.navigation .menu-bar{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+	.header .side-menu{
+		width: 35%;
+		font-size: 12px;
+	}
+	.side-menu ul li ul{
+		top: 230px;
+	}
+	.side-menu ul li:hover ul{
+        margin-left: 25%;
+	}
+}
